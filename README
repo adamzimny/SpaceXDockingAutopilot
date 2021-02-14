@@ -1,0 +1,16 @@
+Autopilot for https://iss-sim.spacex.com/ simulator
+
+How to use:
+a)
+  Open https://iss-sim.spacex.com/ in your web browser
+
+b)
+  In Firefox: Menu -> Web Developer -> WebConsole
+  In Chromium: Menu -> More tools -> Developer tools ; then select Console tab
+
+c)
+  Copy/paste content of autopilot.js file into the console ; press enter
+  Capsule should start docking automatically each time game is started.
+
+Autopilot is tuned for a relatively fast and aggresive approach, capsule might crash into ISS on slower machines.
+

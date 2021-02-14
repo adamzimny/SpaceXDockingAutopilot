@@ -1,0 +1,35 @@
+Buttons:
+Left side:
+translateForward()
+translateBackward()
+translateUp()
+translateDown()
+translateLeft()
+translateRight()
+
+Right side:
+rollLeft()
+rollRight()
+yawLeft()
+yawRight()
+pitchDown()
+pitchUp()
+
+Hud:
+Rotation rates (in 1/10 of deg):
+rateRotationX - pitch
+rateRotationY - yaw
+rateRotationZ - roll
+
+rateCurrent - speed towards iss
+
+Rotation error:
+fixedRotationX=(camera.rotation.x/toRAD) - pitch rotation error
+fixedRotationY=(camera.rotation.y/toRAD) - yaw rotation error
+fixedRotationZ=(camera.rotation.z/toRAD) - roll rotation error
+
+
+Distance to ISS:
+camera.position.x-issObject.position.x
+camera.position.y-issObject.position.y
+camera.position.z-issObject.position.z
